@@ -1,0 +1,180 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding:0px;
+	margin:0px;
+}
+
+h3.top {
+	color:rgb(29, 128, 130);
+}
+
+h3.links {
+	font-weight:700;
+	font-size:20px;
+	margin-left:10px;
+}
+
+h4.links {
+	font-weight:400;
+	margin-left:10px;
+}
+
+h4 a{
+	color:black;
+	text-decoration:none;
+}
+
+h4.links a:hover {
+	text-decoration:underline;
+	color:black;
+}
+
+a img.plaatje4:active {
+	width:180px;
+	margin-left:10px;
+	margin-right:28px;
+}
+
+a img.plaatje5:active {
+	width:180px;
+	margin-left:10px;
+	margin-right:28px;
+	margin-bottom:25px;
+}
+
+h4 a:hover {
+	color:black;
+}
+
+footer a:hover {
+	text-decoration:underline;
+	color:black;
+}
+
+a img:hover {
+	opacity: 0.5;
+	transition: opacity .25s ease-in-out;
+}
+
+li a:hover {
+	color:white;
+	text-decoration:none;
+}
+
+h4.naam {
+	color:rgb(32, 178, 181);
+}
+
+h4.naam:hover {
+	text-decoration:underline;
+}
+
+header {
+	background-color:rgb(41, 230, 235);
+	margin-bottom:35px;
+}
+
+ul {
+	padding:0px;
+	margin:0px;
+	margin-bottom:10px;
+	background-color:rgb(186, 255, 237);
+}
+
+li {
+	display:inline-block;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+li a {
+	color:black;
+	text-decoration:none;
+	padding-left:10px;
+}
+
+input[type=text] {
+    width:250px;
+	margin-bottom:5px;
+}
+
+img.logo {
+	margin-top:4px;
+	width:77px;
+	margin-left:100px;
+}
+
+footer {
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:rgb(41, 230, 235);
+	padding-left:37px;
+	clear:both;
+	padding-bottom:40px;
+}
+
+footer h3 {
+	font-size:15px;
+	font-weight:400;
+
+}
+
+footer a {
+	color:black;
+	font-size:15px;
+	font-weight:400;
+	text-decoration:none;
+}
+
+section {
+	display:inline-block;
+}
+
+
+h3 {
+	font-weight:400;
+	font-size:15px;
+}
+
+.footer {
+	padding-bottom:130px;
+}
+
+.kopje {
+	color:rgb(48,177,181);
+}
+
+.lijst {
+	background-color:rgb(243,243,243);
+}
+
+.lijst2 {
+	background-color:white;
+}
+
+.lijst3 {
+	color:rgb(48,177,181);
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    background-color: #ffff99;
+}
